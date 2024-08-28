@@ -1,0 +1,24 @@
+:root {
+    --lightClr: #ffffff;
+    --darkClr: #000000;
+    --clr1: #ffc2a0;
+    --clr2: #ff8542;
+    --clr3: #ff0b37;
+    --fontFamily: "Roboto", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: var(--fontFamily);
+    font-weight: 400;
+}
+
+html {
+    font-size: 62.5%;
+}

@@ -1,0 +1,38 @@
+.listItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2.2rem;
+
+    &:hover {
+        cursor: pointer;
+        color: var(--clr2);
+    }
+
+    &:not(:last-child) {
+        margin-bottom: 2.2rem;
+    }
+
+    p {
+        font-size: 1.8rem;
+
+        @media screen and (max-width: 768px) {
+            font-size: 1.4rem;
+        }
+    }
+
+    button {
+        font-weight: 100;
+        font-size: 1.4rem;
+        border: 1px solid var(--clr3);
+        background-color: transparent;
+        padding: .4rem 1.2rem;
+        color: var(--clr3);
+        border-radius: .4rem;
+        cursor: pointer;
+
+        @media screen and (max-width: 768px) {
+            font-size: 1.2rem;
+        }
+    }
+}

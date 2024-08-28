@@ -1,0 +1,38 @@
+.appBg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--clr1);
+    padding: 0 20px;
+    @media screen and (max-width: 768px){
+        padding: 20px;
+    }
+}
+
+.appContent {
+    width: 100%;
+    background-color: var(--lightClr);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 2.2rem 0; 
+    h1{
+        font-size: 2.8rem;
+        color: var(--clr2);
+    }
+    .todoList {
+        list-style: none;
+        width: 80%;
+        margin-top: 2.2rem;
+    }
+    .cautionMsg{
+        font-size: 2.2rem;
+        color: rgb(128, 128, 128);
+        @media screen and (max-width: 768px){
+            font-size: 1.8rem;
+        }
+    }
+}
